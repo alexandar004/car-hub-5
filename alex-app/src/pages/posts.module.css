@@ -1,0 +1,20 @@
+/* Posts.module.css */
+
+.postsContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  .postsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .postsContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
