@@ -1,8 +1,9 @@
-import useFetchPosts from "../hooks/useFetchPosts";
+import usePosts from "../hooks/usePosts";
 import PostCard from "../components/PostCard";
 import styles from './posts.module.css';
+
 export default function Posts() {
-  const { posts, loading } = useFetchPosts();
+  const { posts, loading } = usePosts();
 
   if (loading) return <p>Loading...</p>;
 

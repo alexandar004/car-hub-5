@@ -1,6 +1,7 @@
 /* Posts.module.css */
 
 .postsContainer {
+  background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec);
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
